@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Honk', Arial, sans-serif;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+}
+
+.menu_lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px;
+    padding: 20px;
+    gap: 65px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu_lista_item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_curriculo {
+    font-family: 'Honk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+.banner {
+    background-image: url(https://preview.redd.it/bpxxqqvps4h91.gif?width=640&crop=smart&auto=webp&s=e29a6c5b5996e595d29e52030ed4e9abe618e3bd);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logosite {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.banner_info {
+    background-color: rgba(0, 0, 0, 0.66);
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.fotoeu {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Lilita One', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
